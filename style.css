@@ -1,55 +1,76 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-a{
+a {
     text-decoration: none;
 }
-ul, ol, li{
+ul, ol, li {
     list-style: none;
 }
-
-html ,body{
+html, body {
     scroll-behavior: smooth;
 }
 
-header{
+header {
     background-color: #333;
     padding: 16px;
     width: 100vw;
-    padding: 16px;
 }
 
-header nav ul{
+header nav ul {
     display: flex;
     justify-content: space-between;
 }
 
-header nav a{
+header nav a {
     color: white;
 }
-header nav a:hover{
+header nav a:hover {
     background-color: tomato;
     transition: 0.4s;
 }
 
-.grupo{
+.grupo {
     height: 100vh;
 }
-#vermelho{
+
+#vermelho {
     background-color: tomato;
-}
-#verde{
-    background-color: green;
-}
-#azul{
-    background-color: blue;
-}
-#amarelo{
-    background-color: rgb(250, 250, 0);
-}
-#roxo{
-    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px; 
 }
 
+#vermelho h2 {
+    font-size: 2em;
+    color: white;
+    margin-top: 10vh;
+    margin-bottom: 20px; 
+
+.Ver {
+    width: 80%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    gap: 20px; 
+}
+
+.Ver img {
+    height: 100px; 
+    width: auto;
+}
+#verde {
+    background-color: green;
+}
+#azul {
+    background-color: blue;
+}
+#amarelo {
+    background-color: rgb(250, 250, 0);
+}
+#roxo {
+    background-color: purple;
+}
