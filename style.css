@@ -16,10 +16,15 @@
  
  header{
     position: fixed;
-    background-color: #333;
+    background-color: #ffffff;
     width: 100vw;
  }
  
+ #logo{
+   width: 26px;
+ }
+
+
  header nav ul {
     display: flex;
     justify-content: space-between;
@@ -27,9 +32,10 @@
  }
  
  header nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 8px;
     transition: background-color 1s;
+    
  }
  
  header nav a:hover{
@@ -77,9 +83,9 @@
     width: 100%;
  }
  
- #vermelho { background-color: #ffffff; }
- #verde { background-color: #ffffff; }
- #azul { background-color: #ffffff; }
- #amarelo { background-color: #ffffff; }
- #roxo { background-color: #ffffff; }
+ #iphone16 { background-color: #ffffff; }
+ #iphone15 { background-color: #ffffff; }
+ #iphone14 { background-color: #ffffff; }
+ #iphone13 { background-color: #ffffff; }
+ #iphone12 { background-color: #ffffff; }
  
